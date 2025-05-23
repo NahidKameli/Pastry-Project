@@ -1,0 +1,80 @@
+
+.product{
+    height: 300px;
+    position: relative;
+    width: 95%;
+}
+
+.product img{
+    width: 60%;
+}
+
+.product p{
+    color: #DB6885;
+}
+
+.add{
+    display: none;
+    cursor: pointer;
+}
+
+.menu div:hover .add{
+    display: block;
+}
+
+.menu :hover h3{
+    color: #DB6885;
+}
+
+.addbutton{
+    border: 0;
+    padding: 3% 20px;
+    margin-left: 2%;
+    border-radius: 15px;
+    color: white;
+    background-color: #DB6885;
+    cursor: pointer;
+}
+
+.favorite, .like {
+    height: 30px;
+    border: 1px solid #DB6885;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 35px;
+    width: 30px;
+    border-radius: 100%;
+    background: none;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+
+    .product {
+        padding: 20px;
+        margin: 0.5rem auto;
+    }
+
+    .product img {
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+    }
+
+    .product h3:hover .add {
+        opacity: 1;
+        display: flex;
+    }
+
+    .product h3:hover {
+        text-decoration: underline;
+        color: #DB6885;
+    }
+
+    .product h3:hover .favorite {
+        display: flex;
+        opacity: 1;
+    }
+
+  
+}

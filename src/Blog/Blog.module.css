@@ -1,0 +1,44 @@
+.container{
+    padding: 30px;
+    margin: 7% auto;
+}
+
+.blog{
+    padding: 2px 3px;
+    text-align: center;
+}
+
+.blog h3{
+    color: #DB6885;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: var(--Font2);
+}
+
+.blog p{
+    color: #2F3137;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: var(--Font1);
+}
+
+.blogcard{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+@media (max-width:768px) {
+    
+    .blog h3{
+        font-size: 20px;
+    }
+
+    .blog p{
+        font-size: 30px;
+    }
+
+    .blogcard{
+        display: block;
+    }
+}

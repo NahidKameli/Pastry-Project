@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards img{
+    width: 100px;
+}
+
+.cart{
+    height: 27px;
+    border: 1px solid #DB6885;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 35px;
+    width: 27px;
+    border-radius: 100%;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    padding-left: 6px;
+}
+
+.cart .like {
+    position: absolute !important;
+  }

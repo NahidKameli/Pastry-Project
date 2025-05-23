@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.container a{
+    color: #707070;
+}
+
+.container h3{
+    color: #DB6885;
+}
+
+@media (min-width: 768px) {
+    .container{
+        padding:3rem 10rem;
+    }
+
+}

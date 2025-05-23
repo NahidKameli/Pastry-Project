@@ -1,0 +1,41 @@
+.Header{
+    background-color: #FFF4F5;
+    padding: 7rem 2rem;
+}
+.Header .headerFavorite{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+.Header .headerFavorite h1{
+    font-family: "Fredoka";
+    font-size: 28px;
+    font-weight: bold;
+    color: #707070;
+}
+
+.Header .headerFavorite h1 span{
+    color: #DB6885;
+}
+
+.Header .headerFavorite p{
+    color: #2F3137;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Figtree";
+
+}
+
+.container{
+    padding: 3rem  10px;
+}
+
+@media (min-width: 768px) {
+
+    .container{
+        padding:3rem 10rem;
+    }
+}

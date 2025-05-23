@@ -1,0 +1,95 @@
+.container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.container a{
+    color: #707070;
+}
+
+.container h3{
+    color: #DB6885;
+}
+
+.box{
+    padding: 8% 10px;
+}
+
+.tableCart{
+    width: 100%;
+    text-align: center;
+    margin:0 auto 1rem;
+    border-collapse: collapse;
+}
+
+.tableCart thead tr {
+    border-bottom: 1px solid rgba(47, 49, 55, 0.14);
+    font-size:18px ;
+    font-family: var(--Font1);
+    font-weight: 500;
+    color: var(--Black100);
+    letter-spacing: -1px;
+}
+
+.tableCart td, .tableCart th {
+    padding: 0.5rem;
+}
+
+.infoProduct{
+    flex: 1 1 0;
+    border-bottom: 1px solid rgba(47, 49, 55, 0.14);
+    text-align: center;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+}
+
+.product  img {
+    width: 100px;
+    height: 100px;
+}
+
+.infoProduct .quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border-radius: 6px;
+}
+
+.infoProduct .quantity .quantityValue{
+    border :1px solid #E5E5E5;
+    padding: 3.3px 10px;
+    border-radius: 4px 0 0 4px;
+    color: #343434;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.infoProduct .price{
+    color: var(--pink100);
+    font-size: 20px;
+    font-family: var(--Font2);
+    font-weight: bold;
+}
+
+.infoProduct .delete{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.coupon::placeholder{
+    padding: 1px 20px;
+    font-size:12px ;
+    line-height: 4px;
+
+}
+
+@media (min-width: 768px) {
+    .container{
+        padding:3rem 10rem;
+    }
+}

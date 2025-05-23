@@ -1,0 +1,16 @@
+:root {
+    --pink100: #DB6885;
+    --Pink10: #FFF4F5;
+    --Black100: #2F3137;
+    --Black50:#707070;
+    --Font1:"Figtree";
+    --Font2:"Fredoka";
+    --Gray100:#C7C7C7;
+}
+
+.container{
+    margin : 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 10px;
+}

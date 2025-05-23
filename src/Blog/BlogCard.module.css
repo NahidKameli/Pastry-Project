@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+.card img{
+    width: 290px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.card .content{
+    font-family: var(--Font1);
+    font-size: 18px;
+    font-weight: 500;
+    color: #2F3137;
+    padding: 10px 3px;
+    letter-spacing: -0.4px;
+}
+
+.card .readmore{
+    color: #DB6885;
+    padding: 10px 3px;
+    position: relative;
+    font-family: var(--Font2);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.readmore span{
+    position: absolute;
+    top: 30%;
+    right: 70%;
+}

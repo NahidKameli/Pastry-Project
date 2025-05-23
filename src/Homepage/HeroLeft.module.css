@@ -1,0 +1,163 @@
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.heroLeft {
+    width: 100%;
+    padding-left: 0
+}
+
+.title {
+    margin: 2rem auto;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.titleFood {
+    color: #DB6885;
+    font-size: 20px;
+    letter-spacing: -1.5px;
+}
+
+.title h2{
+    font-family: "fredoka";
+    font-size: 34px;
+    letter-spacing: -3px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #2F3137;
+}
+
+.title p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #707070;
+}
+
+.order{
+    display: flex;
+    gap: 10px;
+}
+
+.order .orderButton{
+    padding: 16px 26px;
+    background-color: #DB6885;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    border: none;
+    outline: none;
+    border-radius:20px;
+}
+
+.order .learnButton{
+    padding: 16px 26px;
+    background-color: transparent;
+    color: #DB6885;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #DB6885;
+    outline: none;
+    border-radius:20px;
+}
+
+.customers{
+    display: flex;
+    gap: 6px;
+    margin: 2.5rem 0;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "figtree";
+    align-items: center;
+}
+
+.customers div{
+    margin-left: 0;
+    text-align: center;
+}
+
+.customers div p span{
+    margin-left: 6px;
+}
+
+.App{
+    font-family: "figtree";
+    font-size: 14px;
+    color: #707070;
+}
+
+.App p{
+    margin-bottom: 10px;
+}
+
+.App div span img{
+    width: 120px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+
+    .heroLeft {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 7rem;
+        margin-top: 5rem;
+    }
+
+    .titleFood {
+        font-size: 28px;
+    }
+
+    .title h2{
+        font-size: 52px;
+    }
+
+    .title p{
+        font-size: 18px;
+        line-height: 32px;
+        padding-right: 6rem;
+    }
+
+    .customers div{
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+    .App div span img{
+        width: 170px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .order .orderButton{
+        padding: 20px 3rem;
+        background-color: #DB6885;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+        border: none;
+        outline: none;
+        border-radius:40px;
+    }
+
+    .order .learnButton{
+        padding: 20px 3rem;
+        background-color: transparent;
+        color: #DB6885;
+        font-size: 16px;
+        font-weight: 500;
+        border: 1px solid #DB6885;
+        outline: none;
+        border-radius:40px;
+    }
+}

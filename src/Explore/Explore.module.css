@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    padding: 40px 0;
+}
+
+.header h3{
+    color: #DB6885;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 1.5rem;
+}
+
+.header h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.header{
+    margin-bottom: 4%;
+}
+
+.cakes{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    
+}
+
+.cakes div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(182, 180, 180);
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    margin: 10px;
+}
+
+.cakes div:hover{
+    border: 1px solid #DB6885;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.cakes span{
+    color: #DB6885;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.cakes img{
+    width: 120px;
+    height: 120px;
+    line-height: 100px;
+}
+
+@media (min-width: 768px) {
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 5rem 220px;
+    }
+
+    .cakes {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    margin: 3rem 0;
+    }
+}
+
+
+

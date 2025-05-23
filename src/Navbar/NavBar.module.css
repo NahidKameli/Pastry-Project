@@ -1,0 +1,138 @@
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .show {
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2F3137;
+    font-family: "Figtree";
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+.menu {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    border: 1px solid #2F3137;
+    text-align: center;
+    font-size: 24px;
+}
+
+.cart {
+    width: 40px;
+    height: 40px;
+    line-height: 47px;
+    border: 1px solid #2F3137;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.navbar .item {
+    width: 100%;
+    height: 100%;
+    max-height: 0;
+    margin: 0 2rem;
+    overflow: hidden;
+    opacity: 0;
+    display: none;
+}
+
+.navbar.expanded .item{
+    max-height: 100%;
+    opacity: 1;
+    margin-top: 278px;
+    background-color: #fff;
+    box-shadow: 0 10px 27px rgba(0,0,0,.05);
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding:0 6.8rem 0 15rem;
+    }
+
+    .navbar .show {
+        display: none;
+    }
+
+    .navbar {
+        flex: 1 1 0;
+    }
+
+    .navbar .item {
+        opacity: 1;
+        display: flex;
+        overflow: visible;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar .item li {
+        padding: 6px 10px;
+        color: #2F3137;
+        font-family: "Figtree";
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: capitalize;
+        align-items: center;
+    }
+
+    .navbar .item li a{
+        color: #2F3137;
+    }
+
+    .navbar .item button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6px 10px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-family: "Figtree";
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .navbar .item button span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    .badge{
+        border: 1px solid #2F3137;
+        padding: 24px 10px;
+        border-radius: 32px;
+        margin-right: 2rem;
+    }
+}
