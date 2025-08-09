@@ -1,11 +1,12 @@
 # Pastry Project 🍰
 
-Welcome to **Pastry Project**, a delightful web application built with React to showcase a collection of pastries, recipes, or a bakery management system. This project aims to provide a user-friendly interface for pastry enthusiasts to explore, order, or manage their favorite baked goods.
+Welcome to **Pastry Project**, a delightful web application built with React to showcase a collection of pastries, recipes, or a bakery management system.
 
 ## Table of Contents
 - [About the Project](#about-the-project)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -13,32 +14,29 @@ Welcome to **Pastry Project**, a delightful web application built with React to 
 - [Contact](#contact)
 
 ## About the Project
-Pastry Project is a React-based web application designed to bring the joy of pastries to users. Whether you're a bakery owner looking to manage orders or a customer browsing delicious recipes, this project offers an intuitive and modern experience.
-
-### Why This Project?
-- Built to practice and showcase React development skills.
-- Provides a clean and responsive UI for pastry-related functionalities.
-- Open for contributions to enhance features and usability.
+Pastry Project is a React-based web application for browsing or managing pastries with a user-friendly interface.
 
 ## Features
-- 🥐 Browse a collection of pastries with images and descriptions.
-- 🍰 Order management system for bakery owners (if applicable).
-- 📱 Responsive design for mobile and desktop users.
-- 🔍 Search and filter pastries by category or ingredients.
-- ⭐ User authentication for personalized experiences (if implemented).
+- 🥐 Browse pastries with images and descriptions.
+- 🍰 Order management (if implemented).
+- 📱 Responsive design.
+- 🔍 Search and filter pastries (if implemented).
 
 ## Technologies Used
 - **React**: ^18.x.x
-- **Node.js**: ^20.x.x
-- **npm**: For package management
-- **CSS/SCSS**: For styling
-- **Git**: Version control
-- **GitHub**: Hosting the repository
+- **JavaScript**: Core logic
+- **CSS/SCSS**: Styling
+- **Git & GitHub**: Version control
+
+## Screenshots
+Explore the Pastry Project through these snapshots:
+
+| Homepage | Product Page | Order Form |
+|----------|--------------|------------|
+| <img src="./screenshots/screenshot1.png" alt="Homepage" width="300"/> | <img src="./screenshots/screenshot2.png" alt="Product Page" width="300"/> | <img src="./screenshots/screenshot3.png" alt="Order Form" width="300"/> |
 
 ## Installation
-Follow these steps to set up the project locally:
-
-1. **Clone the repository**:
+1. Clone the repository:
    ```bash
    git clone https://github.com/NahidKameli/Pastry-Project.git
    cd Pastry-Project
