@@ -18,13 +18,23 @@
     padding: 8% 4% 8% 4%;
 }
 
-/* @media  (min-width:768px){
-    .header h3{
-        font-size: 28px;
-    }
+@media (max-width: 1024px) {
+  .menu {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4% 2%;
+  }
+}
 
-    .header p{
-        font-size: 50px;
-    }
-
-} */
+@media (max-width: 600px) {
+  .menu {
+    grid-template-columns: 1fr;
+    padding: 2% 1%;
+  }
+  .container {
+    margin-top: 60px;
+    padding: 0 2%;
+  }
+  .header h1 {
+    font-size: 1.5rem;
+  }
+}

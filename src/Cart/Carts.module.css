@@ -3,6 +3,26 @@
     margin-top: 10%;
 }
 
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem 0.5rem;
+    margin-top: 2rem;
+  }
+  .box {
+    padding: 2% 0;
+  }
+  .tableCart {
+    font-size: 12px;
+    width: 100vw;
+    overflow-x: auto;
+    display: block;
+  }
+  .product img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
 .container a{
     color: #707070;
 }
@@ -79,6 +99,7 @@
     border: none;
     outline: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .coupon::placeholder{

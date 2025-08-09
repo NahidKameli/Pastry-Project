@@ -33,6 +33,41 @@
     
 }
 
+@media (max-width: 1024px) {
+  .cakes {
+    width: 100%;
+    gap: 10px;
+  }
+  .cakes div {
+    padding: 1rem 1.5rem;
+    margin: 6px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  .cakes {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    gap: 8px;
+  }
+  .cakes div {
+    width: 95vw;
+    max-width: 350px;
+    margin: 0 auto 10px auto;
+    padding: 1rem 0.5rem;
+  }
+  .cakes img {
+    width: 80vw;
+    max-width: 150px;
+    height: auto;
+  }
+}
+
 .cakes div{
     display: flex;
     flex-direction: column;
@@ -42,6 +77,10 @@
     border-radius: 20px;
     padding: 2rem 3rem;
     margin: 10px;
+}
+
+.cakes div button {
+    cursor: pointer;
 }
 
 .cakes div:hover{

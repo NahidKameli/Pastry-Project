@@ -5,6 +5,22 @@
     padding: 0 10px;
 }
 
+@media (max-width: 600px) {
+  .container {
+    padding: 0 4px;
+  }
+ 
+  .navbar .item {
+    flex-direction: column;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar .item li {
+    padding: 4px 0;
+  }
+}
+
 .header {
     position: absolute;
     top: 30px;
@@ -13,7 +29,7 @@
     z-index: 1;
     display: flex;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0 35px;
 }
 
 .navbar {
@@ -31,7 +47,6 @@
     font-size: 14px;
     font-weight: 500;
     text-transform: capitalize;
-
 }
 
 .menu {
@@ -120,6 +135,7 @@
         font-family: "Figtree";
         font-size: 14px;
         font-weight: 500;
+        cursor: pointer;
     }
 
     .navbar .item button span {

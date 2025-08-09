@@ -5,6 +5,34 @@
     width: 95%;
 }
 
+@media (max-width: 1024px) {
+  .product {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .product img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  .product {
+    width: 100%;
+    height: auto;
+    padding: 8px 0;
+  }
+  .product img {
+    width: 90vw;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 .product img{
     width: 60%;
 }
@@ -33,6 +61,10 @@
     border-radius: 15px;
     color: white;
     background-color: #DB6885;
+    cursor: pointer;
+}
+
+.product button {
     cursor: pointer;
 }
 
@@ -75,6 +107,5 @@
         display: flex;
         opacity: 1;
     }
-
   
 }

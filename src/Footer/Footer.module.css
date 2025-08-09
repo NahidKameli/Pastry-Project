@@ -3,6 +3,7 @@
     position: relative;
     overflow: hidden;
     padding: 0;
+    margin-top: 4rem;
 }
 
 .footer .backgroundImage{
@@ -69,6 +70,7 @@
     font-size: 16px;
     font-family: var(--Font1);
     font-weight: 500;
+    cursor: pointer;
 }
 
 hr{
@@ -95,7 +97,6 @@ hr{
     object-fit: contain;
     width: 100%;
     height: 100%;
-
 }
 
 .footerRow{
@@ -103,6 +104,37 @@ hr{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+   .footer{
+    margin-top: 3rem;
+   }
+
+  .footerRow {
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+  }
+
+  .footerColRow, .footerCol {
+    width: 100%;
+    padding: 0 0 10px 0;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer .container .logo {
+    margin-top: 1rem;
+  }
 }
 
 .footerColRow{

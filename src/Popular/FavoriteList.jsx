@@ -11,7 +11,6 @@ function FavoriteList({ like }) {
             )}
         </div>
     );
-  )
 }
 
 export default FavoriteList

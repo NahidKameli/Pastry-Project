@@ -2,6 +2,37 @@
     display: flex;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card img {
+    width: 180px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .card img {
+    width: 90vw;
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .card {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 .card{
     display: flex;
     flex-direction: column;
@@ -31,6 +62,10 @@
     font-family: var(--Font2);
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.card button {
     cursor: pointer;
 }
 

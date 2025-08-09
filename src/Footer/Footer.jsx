@@ -37,7 +37,7 @@ function Footer() {
                             <li>
                                 <span><LuPhone width="20px" height="20px"/></span>
                                 <span>Call:</span>
-                                <span>09212751332</span>
+                                <span>0921227</span>
                             </li>
                             <li>
                                 <span><FaRegClock width="20px" height="20px"/></span>

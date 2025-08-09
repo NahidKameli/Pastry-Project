@@ -53,6 +53,7 @@
     border: none;
     outline: none;
     border-radius:20px;
+    cursor: pointer;
 }
 
 .order .learnButton{
@@ -64,6 +65,7 @@
     border: 1px solid #DB6885;
     outline: none;
     border-radius:20px;
+    cursor: pointer;
 }
 
 .customers{

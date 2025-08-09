@@ -1,0 +1,8 @@
+gh_binary_path: ''
+gh_token: ''
+available:
+  on_your_laptop: true
+  when_isolated: false
+confirmation:
+  ask_user: []
+  deny: []

@@ -28,6 +28,31 @@
     overflow: hidden;
 }
 
+@media (max-width: 1024px) {
+  .blogcard {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    margin: 20px auto;
+  }
+  .blog h3 {
+    font-size: 18px;
+  }
+  .blog p {
+    font-size: 20px;
+  }
+  .blogcard {
+    display: block;
+    gap: 0;
+  }
+}
+
 @media (max-width:768px) {
     
     .blog h3{

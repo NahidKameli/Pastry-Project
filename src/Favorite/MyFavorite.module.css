@@ -33,6 +33,18 @@
     padding: 3rem  10px;
 }
 
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem 0.5rem;
+  }
+  .Header {
+    padding: 3rem 0.5rem;
+  }
+  .Header .headerFavorite p {
+    font-size: 32px;
+  }
+}
+
 @media (min-width: 768px) {
 
     .container{

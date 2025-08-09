@@ -4,18 +4,21 @@ import NavBar from '../Navbar/NavBar';
 import Footer from '../Footer/Footer';
 import Order from './Order';
 
-function Carts({ shop }) {
 
+function Carts({ shop }) {
     const [carts, setCarts] = useState(shop);
     const removeItem = (id) => {
         setCarts(carts.filter(cart => cart.id !== id));
     };
-
+   
+    const updateCount = (id, newCount) => {
+        setCarts(prev => prev.map(item => item.id === id ? { ...item, count: newCount } : item));
+    };
     const total = carts.reduce((acc, item) => {
-        const itemPrice = parseFloat(item.Price.split(" ")[0].replace(",", ".").replace(/[^\d.]/g, ""));
-        return acc + (itemPrice * item.count);
+        const itemPrice = parseFloat((item.price || '0').toString().replace(/[^\d.]/g, ""));
+        const itemCount = item.count ? parseInt(item.count) : 1;
+        return acc + (itemPrice * itemCount);
     }, 0);
-
     return (
         <>
             <NavBar />
@@ -36,8 +39,9 @@ function Carts({ shop }) {
                             </tr>
                         </thead>
                         <tbody>
-                            {carts.length ? (carts.map(product => (<Order key={product.id} data={product} removeItem={removeItem} />))
-                            ) : (
+                            {carts.length ? (carts.map(product => (
+                                <Order key={product.id} data={product} removeItem={removeItem} updateCount={updateCount} />
+                            ))) : (
                                 <tr>
                                     <td colSpan="5" style={{ textAlign: "center",paddingTop:"20px" }}>No items in cart</td>
                                 </tr>

@@ -2,6 +2,23 @@
     padding: 10px;
 }
 
+@media (max-width: 600px) {
+  .container {
+    padding: 4px;
+  }
+  .testimonial {
+    flex-direction: column;
+    padding: 4px;
+  }
+  .content {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .testimonialCard {
+    padding: 10px 2px;
+  }
+}
+
 .testimonial {
     width: 100%;
     display: flex;
@@ -59,6 +76,10 @@
     padding: 0;
     border-radius: 15px;
     gap: 10px;
+}
+
+.testimonialCard button {
+    cursor: pointer;
 }
 
 .testimonial img{
