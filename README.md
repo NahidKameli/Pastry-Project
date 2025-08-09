@@ -20,7 +20,6 @@ Pastry Project is a React-based web application for browsing or managing pastrie
 - 🥐 Browse pastries with images and descriptions.
 - 🍰 Order management (if implemented).
 - 📱 Responsive design.
-- 🔍 Search and filter pastries (if implemented).
 
 ## Technologies Used
 - **React**: ^18.x.x
